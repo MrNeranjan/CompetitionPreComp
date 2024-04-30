@@ -1,0 +1,91 @@
+/* SignUp.css */
+.SignUp_form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+
+    font-family: var(--font-family);
+    margin-top: 4rem;
+  }
+  .SignUp_form_container_options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .SignUp_form_container h1 {
+    color: #2f2d2d;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .SignUp_form_container_options h3 {
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .SignUp_form_container_options_icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px 0;
+  }
+
+  .icon {
+    font-size: 18px;
+    color: #007BFF;
+}
+
+  
+
+  .SignUp_form_container_inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ 
+  }
+  
+  .SignUp_form_container_inputs input {
+    margin: 8px 0;
+    padding: 10px;
+    border: 0.7px solid #2f2d2d;
+    transition: border 0.3s, box-shadow 0.3s;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .SignUp_form_container_inputs input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+  }
+  .SignUp_form_container_inputs input:hover {
+    border-color: #007BFF;
+    
+  }
+
+  button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+}
+  
+  p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
